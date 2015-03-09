@@ -3,7 +3,7 @@ FontName: Pelagiad
 FullName: Pelagiad
 FamilyName: Pelagiad
 Weight: Regular
-Copyright: Copyright Isak Larborn. Licensed under CC0 1.0 Universal.
+Copyright: Copyright Isak Larborn. Licensed under the SIL Open Font License.
 UComments: "2015-2-24: Created with FontForge (http://fontforge.org)"
 Version: 1.0
 ItalicAngle: 0
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1424795239
-ModificationTime: 1425916613
+ModificationTime: 1425920556
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -77,7 +77,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 648 24 15
+WinInfo: 0 24 15
 BeginPrivate: 9
 BlueValues 24 [-21 -4 372 378 619 630]
 OtherBlues 11 [-266 -248]
@@ -2170,7 +2170,7 @@ StartChar: Z
 Encoding: 90 90 61
 Width: 647
 VWidth: -10
-Flags: HW
+Flags: W
 HStem: -14 21G<19 37> 0 114<213 496.178> 553 105<63.1013 345.014> 643 8<463 555>
 VStem: 28 15<506 510> 560 69<-112.996 -7>
 LayerCount: 2
@@ -3245,6 +3245,7 @@ SplineSet
  382 634 434 466 434 299 c 3
  434 154 358 -6 230 -6 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: one
@@ -3307,6 +3308,7 @@ SplineSet
  315 71 420 78 430 84 c 0
  440 94 445 108 445 114 c 0xb8
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: three
@@ -4819,16 +4821,40 @@ EndChar
 
 StartChar: zacute
 Encoding: 378 378 175
-Width: 452
-VWidth: 0
-Flags: H
-HStem: -10 21G<30 140> 13 60<161.509 389.571> 314 60<60.9665 203.368> 326 35<306 377.166> 389 208
-VStem: 197 188 388 34<-34.3953 -6.00801>
+Width: 494
+VWidth: -2
+Flags: W
+HStem: 4 77<202 423.461> 318 79<72.4995 225.013> 347 35<348.5 426.325> 610 20G<324 357>
 LayerCount: 2
 Back
 Fore
-Refer: 87 180 S 1 0 0 1 187 -12 2
-Refer: 31 122 N 1 0 0 1 0 0 3
+SplineSet
+343 630 m 0x90
+ 371 630 385 621 385 598 c 0
+ 385 563 261 422 208 422 c 2
+ 197 422 l 1
+ 200 433 l 2
+ 229 537 305 630 343 630 c 0x90
+415 382 m 3xb0
+ 428 382 438 373 438 361 c 3
+ 438 333 202 81 202 81 c 1
+ 457 80 476 67 476 44 c 3
+ 476 21 476 -50 438 -50 c 3
+ 427 -50 426 -33 426 -29 c 0
+ 426 -23 426 -19 427 -15 c 1
+ 392 -11 252 4 204 4 c 0
+ 134 4 46 -20 46 -20 c 1
+ 19 -27 l 1
+ 37 -7 l 1
+ 216 183 286 254 308 277 c 1
+ 193 299 185 318 90 318 c 0
+ 70 318 49 291 49 291 c 1
+ 35 271 l 1
+ 35 296 l 2
+ 35 327 74 397 112 397 c 0xd0
+ 204 397 335 347 362 347 c 0
+ 392 347 383 382 415 382 c 3xb0
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -5021,7 +5047,7 @@ StartChar: zdotaccent
 Encoding: 380 380 180
 Width: 494
 VWidth: -2
-Flags: HW
+Flags: W
 HStem: 4 77<202 423.461> 318 79<72.4995 225.013> 347 35<348.5 426.325> 447 149<204.893 284.22>
 VStem: 162 172<491.873 553.52>
 LayerCount: 2
@@ -5060,7 +5086,7 @@ StartChar: Zdotaccent
 Encoding: 379 379 181
 Width: 647
 VWidth: -10
-Flags: HW
+Flags: W
 HStem: -14 21G<19 37> 0 114<213 496.178> 553 105<63.1013 345.014> 643 8<463 555> 700 149<254.893 334.22>
 VStem: 28 15<506 510> 212 172<744.873 806.52> 560 69<-112.996 -7>
 LayerCount: 2
@@ -7952,8 +7978,7 @@ StartChar: Zcaron
 Encoding: 381 381 264
 Width: 647
 VWidth: 0
-Flags: H
-HStem: -14 21G<19 37> 0 114<213 496.178> 553 105<63.1013 345.014> 643 8<463 555> 806 32<450.426 500.036>
+HStem: -14 21G<19 37> 0 114<213 496.178> 553 105<63.1013 345.014> 643 8<463 555> 806 32<450.485 500.095>
 VStem: 28 15<506 510> 108 75<789.317 829> 560 69<-112.996 -7>
 LayerCount: 2
 Back
@@ -7980,27 +8005,44 @@ StartChar: zcaron
 Encoding: 382 382 265
 Width: 452
 VWidth: 0
-Flags: H
-HStem: -10 21G<30 140> 13 60<161.509 389.571> 314 60<60.9665 203.368> 326 35<306 377.166> 526 32<388.666 438.277>
-VStem: 46 75<509.317 549> 388 34<-34.3953 -6.00801>
+HStem: 4 77<202 423.461> 318 79<72.4995 225.013> 347 35<348.5 426.325> 551 32<388.485 438.095>
+VStem: 46 75<534.317 574>
 LayerCount: 2
 Back
 Fore
 SplineSet
-231 390 m 5xce
- 176 414 47 492 46 538 c 4
- 46 546 51 556 66 556 c 7
- 87 556 99 552 121 549 c 5
- 121 543 l 5
- 122 541 129 534 130 524 c 4
- 131 514 174 481 228 454 c 5
- 271 485 325 558 378 558 c 4
- 413 558 440 554 440 534 c 6
- 440 526 l 5
- 432 526 l 6
- 367 526 356 444 231 390 c 5xce
+415 382 m 3xb8
+ 428 382 438 373 438 361 c 3
+ 438 333 202 81 202 81 c 1
+ 457 80 476 67 476 44 c 3
+ 476 21 476 -50 438 -50 c 3
+ 427 -50 426 -33 426 -29 c 0
+ 426 -23 426 -19 427 -15 c 1
+ 392 -11 252 4 204 4 c 0
+ 134 4 46 -20 46 -20 c 1
+ 19 -27 l 1
+ 37 -7 l 1
+ 216 183 286 254 308 277 c 1
+ 193 299 185 318 90 318 c 0
+ 70 318 49 291 49 291 c 1
+ 35 271 l 1
+ 35 296 l 2
+ 35 327 74 397 112 397 c 0xd8
+ 204 397 335 347 362 347 c 0
+ 392 347 383 382 415 382 c 3xb8
+231 415 m 5
+ 176 439 47 517 46 563 c 4
+ 46 571 51 581 66 581 c 7
+ 87 581 99 577 121 574 c 5
+ 121 568 l 5
+ 122 566 129 559 130 549 c 4
+ 131 539 174 506 228 479 c 5
+ 271 510 325 583 378 583 c 4
+ 413 583 440 579 440 559 c 6
+ 440 551 l 5
+ 432 551 l 6
+ 367 551 356 469 231 415 c 5
 EndSplineSet
-Refer: 31 122 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
