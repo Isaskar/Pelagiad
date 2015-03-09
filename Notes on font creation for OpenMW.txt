@@ -1,0 +1,10 @@
+There are a few little details that I've learned while creating Pelagiad, that will be of use for anyone looking to build a font for use with OpenMW. This is my attempt to share some of them.
+
+* Morrowind uses right single and double quotes in some places, rather than using neutral quotes. It does however never use left quotation marks. It also often uses a different kind of hyphen than the standard one, and in some rare cases uses an elipis character instead of three individual dots. It all boils down to this:
+Characters "uni2010" (8208, U+2010); "quoteright" (8217, U+2019); "quotedblright" (8221, U+201D); "elipsis" (8230, U+2026); are required for a font to be fully compatible with OpenMW.
+
+* The font renderer used in OpenMW does not seem to support kerning, and may also not support ligatures. Don't make your font depend too much on these features.
+
+* Always test your fonts in OpenMW on an early stage. I did not test mine until I had implemented all Latin characters, and so I discovered too late that my characters looked too thin in OpenMW, even though they looked fine in word processors.
+
+Other than that, it should be a fairly straightforward process, especially if you already are an experienced typographer (unlike me).

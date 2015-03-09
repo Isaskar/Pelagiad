@@ -77,7 +77,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 48 24 16
+WinInfo: 648 24 15
 BeginPrivate: 9
 BlueValues 24 [-21 -4 372 378 619 630]
 OtherBlues 11 [-266 -248]
