@@ -18,7 +18,7 @@
         </Codes>
     </Resource>
     <Resource type="ResourceTrueTypeFont" name="Magic Cards">
-        <Property key="Source" value="Pelagiad.ttf"/>
+        <Property key="Source" value="Pelagiad-N.ttf"/>
         <Property key="Size" value="24"/>
         <Property key="Resolution" value="50"/>
         <Property key="Antialias" value="true"/>
