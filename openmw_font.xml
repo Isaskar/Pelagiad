@@ -18,7 +18,7 @@
         </Codes>
     </Resource>
     <Resource type="ResourceTrueTypeFont" name="Magic Cards">
-        <Property key="Source" value="Pelagiad-N.ttf"/>
+        <Property key="Source" value="Pelagiad.ttf"/>
         <Property key="Size" value="24"/>
         <Property key="Resolution" value="50"/>
         <Property key="Antialias" value="false"/>
@@ -36,7 +36,7 @@
             <Code range="305"/>
             <Code range="321 324"/>
             <Code range="327 328"/>
-            <Code range="339"/>
+            <Code range="338 339"/>
             <Code range="344 347"/>
             <Code range="352 353"/>
             <Code range="356 357"/>
@@ -49,13 +49,11 @@
             <Code range="8216 8217"/>
             <Code range="8220 8221"/>
             <Code range="8228 8230"/>
-            <Code hide="198"/>
             <Code hide="208"/>
-            <Code hide="215 216"/>
+            <Code hide="215"/>
 	    <Code hide="222"/>
-            <Code hide="230"/>
             <Code hide="240"/>
-            <Code hide="247 248"/>
+            <Code hide="247"/>
             <Code hide="254"/>
         </Codes>
     </Resource>
